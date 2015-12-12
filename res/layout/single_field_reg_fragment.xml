@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.android.nux.landing.LandingRotatingBackgroundView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/top_min_margin" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/image_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/logo_icon_bottom_margin" />
+            <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/field_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAllCaps="true" />
+            <View android:id="@id/no_field_detail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/logo_bottom_margin" />
+            <TextView android:textSize="@dimen/font_medium" android:textColor="@color/white" android:gravity="center" android:id="@id/field_detail" android:paddingTop="@dimen/text_button_top_padding" android:paddingBottom="@dimen/text_button_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/input_field_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/login_horizontal_margin" android:layout_marginRight="@dimen/login_horizontal_margin" android:layout_marginBottom="@dimen/textbox_bottom_margin" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ProgressBar android:layout_gravity="center" android:id="@id/next_progress" android:layout_width="32.0dip" android:layout_height="32.0dip" android:indeterminate="true" />
+                <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:gravity="center" android:id="@id/next_button" android:background="@drawable/button_border" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:layout_marginLeft="@dimen/login_horizontal_margin" android:layout_marginRight="@dimen/login_horizontal_margin" />
+            </FrameLayout>
+            <View android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/login_horizontal_margin" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/font_small" android:textColor="@color/white_50_transparent" android:gravity="center" android:layout_gravity="center" android:id="@id/privacy_policy" android:paddingBottom="@dimen/row_text_padding" android:visibility="gone" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:layout_marginLeft="@dimen/login_horizontal_margin" android:layout_marginRight="@dimen/login_horizontal_margin" />
+            <View android:background="@color/white_20_transparent" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="@dimen/font_small" android:textColor="@color/white_70_transparent" android:gravity="center" android:id="@id/log_in_button" android:background="@color/white_5_transparent" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/landing_container" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.android.nux.landing.LandingRotatingBackgroundView android:id="@id/login_landing_rotating_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ScrollView android:id="@id/login_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/login_logo_padding" android:layout_width="fill_parent" android:layout_height="@dimen/top_min_margin" android:layout_weight="1.0" />
+            <LinearLayout android:orientation="vertical" android:id="@id/login_component" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/login_horizontal_margin" android:layout_marginRight="@dimen/login_horizontal_margin">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/login_landing_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/logo_bottom_margin" android:src="@drawable/nux_dayone_landing_logo" />
+                <EditText android:textSize="@dimen/font_medium" android:textColor="@color/white" android:textColorHint="@color/white_70_transparent" android:id="@id/login_username" android:background="@drawable/login_input_field" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:layout_marginBottom="@dimen/textbox_bottom_margin" android:hint="@string/username" android:cursorVisible="true" android:singleLine="true" android:inputType="textNoSuggestions" android:textCursorDrawable="@null" />
+                <EditText android:textSize="@dimen/font_medium" android:textColor="@color/white" android:textColorHint="@color/white_70_transparent" android:id="@id/login_password" android:background="@drawable/login_input_field" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:layout_marginBottom="@dimen/textbox_bottom_margin" android:hint="@string/password" android:cursorVisible="true" android:singleLine="true" android:inputType="textPassword" android:textCursorDrawable="@null" />
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ProgressBar android:layout_gravity="center" android:id="@id/login_progress" android:layout_width="32.0dip" android:layout_height="32.0dip" android:indeterminate="true" />
+                    <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:gravity="center" android:id="@id/login_submit_button" android:background="@drawable/button_border" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" />
+                </FrameLayout>
+                <TextView android:textSize="@dimen/font_small" android:textColor="@color/white_70_transparent" android:gravity="center" android:id="@id/login_forgot_button" android:background="@null" android:paddingTop="@dimen/forget_button_padding" android:paddingBottom="@dimen/forget_button_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <include android:id="@id/login_or_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/or_divider_top_margin" layout="@layout/or_divider_transparent" />
+                <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/login_facebook" android:layout_width="wrap_content" android:layout_height="@dimen/row_height_small" android:text="@string/log_in_with_facebook" android:drawableLeft="@drawable/share_facebook" android:drawablePadding="4.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/signup_button_component" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_min_margin" android:layout_weight="1.0">
+                <View android:background="@null" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <View android:id="@id/login_signup_button_border" android:background="@color/white_20_transparent" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <TextView android:textSize="@dimen/font_small" android:textColor="@color/white_70_transparent" android:gravity="center" android:id="@id/login_signup_button" android:background="@color/white_5_transparent" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

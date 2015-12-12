@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">%1$s of Your Facebook Friends are on Instagram</item>
+        <item quantity="one">%1$s of Your Facebook Friends are on Instagram</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">%1$s of Your VKontakte Friends are on Instagram</item>
+        <item quantity="one">%1$s of Your VKontakte Friends are on Instagram</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">%1$s of Your Contacts are on Instagram</item>
+        <item quantity="one">%1$s of Your Contacts are on Instagram</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%1$dটি ছবি</item>
+        <item quantity="one">%1$dটি ছবি</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%1$s minutes ago</item>
+        <item quantity="one">%1$s minutes ago</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%1$s ঘণ্টা পূর্বে</item>
+        <item quantity="one">%1$s ঘণ্টা পূর্বে</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%1$s দিন আগে</item>
+        <item quantity="one">%1$s দিন আগে</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%1$s weeks ago</item>
+        <item quantity="one">%1$s weeks ago</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%1$s সেকেন্ড আগে</item>
+        <item quantity="one">%1$s সেকেন্ড আগে</item>
+    </plurals>
+</resources>

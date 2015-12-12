@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#00ffffff" />
+    <stroke android:width="@dimen/button_border_stroke" android:color="#33000000" />
+    <padding android:left="@dimen/circular_avatar_stroke_width" android:top="@dimen/circular_avatar_stroke_width" android:right="@dimen/circular_avatar_stroke_width" android:bottom="@dimen/circular_avatar_stroke_width" />
+</shape>

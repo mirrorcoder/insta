@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="@color/grey_light" android:ellipsize="end" android:id="@id/row_feed_textview_app_attribution" android:paddingLeft="@dimen/feed_content_padding" android:paddingRight="@dimen/feed_content_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/feed_item_section_bottom_padding" android:text="@string/made_with" android:singleLine="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

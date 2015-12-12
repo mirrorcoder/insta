@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:padding="10.0dip" android:shape="oval">
+            <corners android:radius="10.0dip" />
+            <solid android:color="@color/green_5" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/checkmark" />
+</layer-list>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">%1$s of Your Facebook Friends are on Instagram</item>
+        <item quantity="zero">%1$s of Your Facebook Friends are on Instagram</item>
+        <item quantity="one">1 of Your Facebook Friends is on Instagram</item>
+        <item quantity="two">%1$s of Your Facebook Friends are on Instagram</item>
+        <item quantity="few">%1$s of Your Facebook Friends are on Instagram</item>
+        <item quantity="many">%1$s of Your Facebook Friends are on Instagram</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">%1$s of Your VKontakte Friends are on Instagram</item>
+        <item quantity="zero">%1$s of Your VKontakte Friends are on Instagram</item>
+        <item quantity="one">1 of Your VKontakte Friends is on Instagram</item>
+        <item quantity="two">%1$s of Your VKontakte Friends are on Instagram</item>
+        <item quantity="few">%1$s of Your VKontakte Friends are on Instagram</item>
+        <item quantity="many">%1$s of Your VKontakte Friends are on Instagram</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">%1$s of Your Contacts are on Instagram</item>
+        <item quantity="zero">%1$s of Your Contacts are on Instagram</item>
+        <item quantity="one">1 of Your Contacts is on Instagram</item>
+        <item quantity="two">%1$s of Your Contacts are on Instagram</item>
+        <item quantity="few">%1$s of Your Contacts are on Instagram</item>
+        <item quantity="many">%1$s of Your Contacts are on Instagram</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%1$d صور</item>
+        <item quantity="zero">%1$d صور</item>
+        <item quantity="one">صورة واحدة</item>
+        <item quantity="two">%1$d صور</item>
+        <item quantity="few">%1$d صور</item>
+        <item quantity="many">%1$d صور</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%1$s minutes ago</item>
+        <item quantity="zero">%1$s minutes ago</item>
+        <item quantity="one">%1$s minute ago</item>
+        <item quantity="two">%1$s minutes ago</item>
+        <item quantity="few">%1$s minutes ago</item>
+        <item quantity="many">%1$s minutes ago</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">منذ %1$s من الساعات</item>
+        <item quantity="zero">منذ %1$s من الساعات</item>
+        <item quantity="one">%1$s hour ago</item>
+        <item quantity="two">منذ %1$s من الساعات</item>
+        <item quantity="few">منذ %1$s من الساعات</item>
+        <item quantity="many">منذ %1$s من الساعات</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">منذ %1$s من الأيام</item>
+        <item quantity="zero">منذ %1$s من الأيام</item>
+        <item quantity="one">%1$s day ago</item>
+        <item quantity="two">منذ %1$s من الأيام</item>
+        <item quantity="few">منذ %1$s من الأيام</item>
+        <item quantity="many">منذ %1$s من الأيام</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%1$s weeks ago</item>
+        <item quantity="zero">%1$s weeks ago</item>
+        <item quantity="one">%1$s week ago</item>
+        <item quantity="two">%1$s weeks ago</item>
+        <item quantity="few">%1$s weeks ago</item>
+        <item quantity="many">%1$s weeks ago</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%1$s seconds ago</item>
+        <item quantity="zero">%1$s seconds ago</item>
+        <item quantity="one">%1$s second ago</item>
+        <item quantity="two">%1$s seconds ago</item>
+        <item quantity="few">%1$s seconds ago</item>
+        <item quantity="many">%1$s seconds ago</item>
+    </plurals>
+</resources>

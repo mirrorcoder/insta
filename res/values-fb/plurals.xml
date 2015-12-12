@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">[%1$s of Your Facebook Friends are on Instagram#eb19ed42f8e55d45f8a902671d2db6a2:1]</item>
+        <item quantity="one">[1 of Your Facebook Friends is on Instagram#2e9a34427dd912c3801a6f5670c07ae5:1]</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">[%1$s of Your VKontakte Friends are on Instagram#c8b09c1f77068f0a5ea2a41cc85c1bc7:1]</item>
+        <item quantity="one">[1 of Your VKontakte Friends is on Instagram#c7cada422d25373e419a26805edbc4e6:1]</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">[%1$s of Your Contacts are on Instagram#73ea0412e0efdffd108ad565803fc743:1]</item>
+        <item quantity="one">[1 of Your Contacts is on Instagram#ecad215bd1d7fc4c1b91518265f49554:1]</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">[%1$d photos#48e939660871b901d42ef9c80fcddca5:1]</item>
+        <item quantity="one">[1 photo#9fb41da832c22e18d26e6f871c98c383:1]</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">[%1$s minutes ago#69786ffef3a8d0613835e5a705d1970f:1]</item>
+        <item quantity="one">[%1$s minute ago#605715b3a220b024c18fc0cde62b6ede:1]</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">[%1$s hours ago#7dad4186244f896bdcc878ab81e92441:1]</item>
+        <item quantity="one">[%1$s hour ago#c7679f4183b95b0e9a0fff4bdb01bb83:1]</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">[%1$s days ago#5fd0188427e01baea7fd0839d0eb3515:1]</item>
+        <item quantity="one">[%1$s day ago#7f08211fc5b8e683df710eee7272eb4f:1]</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">[%1$s weeks ago#acc12030d62e2843fae9bc409c6af1e5:1]</item>
+        <item quantity="one">[%1$s week ago#21790d3c9e42d7f02689064dd5e8173f:1]</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">[%1$s seconds ago#2aacece0600aa7bf54cd3d332628dc47:1]</item>
+        <item quantity="one">[%1$s second ago#17f5eedd816804c77fc8d6d91054b5cd:1]</item>
+    </plurals>
+</resources>

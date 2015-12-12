@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">你有%1$s位 Facebook 朋友正在使用 Instagram</item>
+        <item quantity="one">你有 1 位 Facebook 朋友正在使用 Instagram</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">你有%1$s位 VKontakte 朋友在使用 Instagram</item>
+        <item quantity="one">你有 1 位 VKontakte 朋友在使用 Instagram</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">你有%1$s位聯絡人正在使用 Instagram</item>
+        <item quantity="one">你有 1 位聯絡人正在使用 Instagram</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%1$d張相片</item>
+        <item quantity="one">1 張相片</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%1$s分鐘前</item>
+        <item quantity="one">%1$s分鐘前</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%1$s小時前</item>
+        <item quantity="one">%1$s小時前</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%1$s天前</item>
+        <item quantity="one">%1$s天前</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%1$s週前</item>
+        <item quantity="one">%1$s週前</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%1$s秒前</item>
+        <item quantity="one">%1$s秒鐘前</item>
+    </plurals>
+</resources>

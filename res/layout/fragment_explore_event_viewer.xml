@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/layout_listview_parent_container" android:background="@color/black_95_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/layout_single_scroll_listview" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/explore_event_viewer_header" />
+</FrameLayout>

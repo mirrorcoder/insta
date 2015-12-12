@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:orientation="horizontal" android:id="@id/pivot_carousel_title" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/ExploreHeaderText.Feed" />
+    <android.support.v7.widget.RecyclerView android:id="@id/pivot_recycler_carousel_view" android:layout_width="fill_parent" android:layout_height="@dimen/pivot_carousel_item_width" />
+    <View android:background="@color/grey_1_5" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/feed_content_padding" android:layout_marginTop="@dimen/pivot_divider_top_margin" android:layout_marginRight="@dimen/feed_content_padding" android:layout_marginBottom="@dimen/pivot_divider_bottom_margin" />
+</LinearLayout>

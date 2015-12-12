@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.common.ui.widget.framelayout.MediaFrameLayout android:id="@id/media_group" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.feed.widget.IgProgressImageView android:id="@id/event_viewer_item_media_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center" android:id="@id/doubletap_heart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/feed_like_big" android:scaleX="0.0" android:scaleY="0.0" />
+    <com.instagram.common.ui.widget.spinner.SpinnerImageView android:layout_gravity="center|right|top" android:id="@id/loading_icon" android:background="@drawable/nav_spinner_with_outline" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" />
+    <ViewStub android:id="@id/menu_overlay_view_stub" android:layout="@layout/immersive_viewer_menu_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/blur_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:id="@id/translucent_layer" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:layout_gravity="top" android:id="@id/top_shadow" android:background="@drawable/top_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/explore_event_viewer_shadow_spread" />
+    <View android:layout_gravity="bottom" android:id="@id/bottom_shadow" android:background="@drawable/bottom_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/explore_event_viewer_shadow_spread" />
+    <ProgressBar android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="@dimen/explore_event_viewer_progress_bar_height" android:layout_marginTop="-2.0dip" android:max="100" android:indeterminateOnly="false" android:progressDrawable="@drawable/white_progress_bar" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/row_feed_header" android:paddingLeft="@dimen/explore_event_viewer_attribution_side_padding" android:paddingRight="@dimen/explore_event_viewer_attribution_side_padding" android:layout_width="fill_parent" android:layout_height="@dimen/explore_event_viewer_attribution_height" android:layout_marginTop="@dimen/explore_event_viewer_attribution_margin_top">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:id="@id/row_feed_profile_picture" android:layout_width="@dimen/explore_event_viewer_profile_picture_size" android:layout_height="@dimen/explore_event_viewer_profile_picture_size" />
+        <TextView android:textSize="@dimen/explore_event_viewer_username_font_size" android:textColor="@color/white" android:id="@id/row_feed_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/explore_event_viewer_username_side_margin" android:drawablePadding="3.0dip" />
+    </LinearLayout>
+</com.instagram.common.ui.widget.framelayout.MediaFrameLayout>
